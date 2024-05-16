@@ -1,0 +1,115 @@
+.navbar
+{
+	height:50px;
+	width: 100%;
+	border: 0px solid;
+	border-radius: 10px;
+	margin: 10px auto;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #e3f2d3;
+
+}
+.nav1
+{
+	height:50px;
+	width:30%;
+	display: flex;
+    align-items: center;
+    
+
+}
+.nav1 i
+{
+	padding-right: 10px;
+	color: white;
+}
+.nav2 i
+{
+	padding-right: 10px;
+	
+}
+.nav3 i
+{
+	padding-left: 10px;
+	color: white;
+}
+
+.nav1 h4
+{
+	height: 25px;
+	width: 30%;
+	background-color: black;
+	border-radius: 5px;
+	align-items: center;
+	display: flex;
+	justify-content: center;color: white;
+	padding:8px 24px;
+	
+}.nav2 h4
+{
+	height: 25px;
+	width: 30%;
+	align-items: center;
+	display: flex;
+	justify-content: center;
+}
+.nav3 h4
+{
+	height: 25px;
+	width: 30%;
+	border-radius: 5px;
+	background-color: black;
+	align-items: center;
+	display: flex;
+	justify-content: center;
+	color: white;
+	padding:8px 24px;
+}
+.nav2
+{
+	height:50px;
+	width: 40%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+}
+.nav3
+{
+	height:50px;
+	width: 30%;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	
+}
+
+@media(max-width:458px)
+{
+	.nav1
+	{
+		width:35%;
+	}
+	.nav2
+	{
+		width:20%;
+	}
+	
+	.nav3 
+	{
+		width:45%;
+	}
+	.nav3 h4
+	{
+		padding: 10px 24px;
+	}
+	.nav2 h4
+	{
+		align-items: center;
+	}
+
+}
+
+
